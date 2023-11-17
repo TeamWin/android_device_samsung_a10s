@@ -1,0 +1,7 @@
+ro.display.series=Samsung A10s
+ro.product.board=k65v1_64_bsp_titan_rat
+ro.board.platform=mt6762
+ro.boot.dynamic_partitions=false
+sys.usb.controller=musb-hdrc
+#fbe.metadata.wrappedkey=true
+ro.boot.boot_devices=bootdevice,soc/11230000.mmc,11230000.mmc,soc/11270000.ufshci,11270000.ufshci
