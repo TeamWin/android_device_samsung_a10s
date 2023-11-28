@@ -9,7 +9,7 @@ $ mkdir tw; cd tw
 $ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
 
 # Clone repo
-$ git clone https://github.com/CharlotteDevTH/android_device_samsung_a10s -b android-11 device/samsung/a10s
+$ git clone https://github.com/HayateDevTH/android_device_samsung_a10s -b android-11 device/samsung/a10s
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
