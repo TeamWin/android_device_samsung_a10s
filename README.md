@@ -19,9 +19,3 @@ $ chmod +x device/samsung/a10s/mkbootimg to avoid building issues.
 
 # Build
 $ source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_a10s-eng; mka recoveryimage
-
-# Disable File Based Encryption (FBE) after installing TWRP.
-$ Boot TWRP; format DATA partition; start TWRP SHELL; execute: multidisabler.
-Your DATA partition will be secured against re-encryption.
-
-
