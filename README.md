@@ -12,7 +12,10 @@ $ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manif
 $ git clone https://github.com/HayateDevTH/android_device_samsung_a10s -b android-11 device/samsung/a10s
 
 # Sync
-$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
+$ repo sync
+
+# Run 
+$ chmod +x device/samsung/a10s/mkbootimg to avoid building issues.
 
 # Build
 $ source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_a10s-eng; mka recoveryimage
