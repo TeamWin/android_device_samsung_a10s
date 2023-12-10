@@ -29,7 +29,7 @@ Release Month | August 2019
 - Vibration
 
 **Not Works**
--ADB Sideload
+- ADB Sideload
 
 ## How To Compile
 
