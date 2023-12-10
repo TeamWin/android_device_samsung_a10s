@@ -17,6 +17,8 @@ Rear Camera  | 13.0 MP + 2 MP, LED flash
 Front Camera | 8.0 MP
 Release Month | August 2019
 
+#How To Compile
+
 # Create dirs
 $ mkdir twrp; cd twwrp
 
