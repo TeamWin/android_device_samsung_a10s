@@ -47,7 +47,7 @@ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifes
 ```
 git clone https://github.com/HayateDevTH/android_device_samsung_a10s -b android-11 device/samsung/a10s
 ```
-## Sync
+## Sync TWRP Repo
 ```
 repo sync
 ```
