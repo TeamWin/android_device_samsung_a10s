@@ -1,1 +1,1 @@
-chmod a+x device/samsung/a10s/mkbootimg
+chmod a+x device/samsung/a10s/mkbootim
