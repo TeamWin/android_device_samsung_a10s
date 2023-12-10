@@ -34,19 +34,30 @@ Release Month | August 2019
 ## How To Compile
 
 # Create dirs
-$ mkdir twrp; cd twwrp
+```
+mkdir twrp; cd twrp
+```
 
 ## Init repo
-$ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
+```
+repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
+```
 
 ## Clone repo
-$ git clone https://github.com/HayateDevTH/android_device_samsung_a10s -b android-11 device/samsung/a10s
-
+```
+git clone https://github.com/HayateDevTH/android_device_samsung_a10s -b android-11 device/samsung/a10s
+```
 ## Sync
-$ repo sync
+```
+repo sync
+```
 
 ## Run 
-$ chmod +x device/samsung/a10s/mkbootimg to avoid building issues.
+```
+chmod +x device/samsung/a10s/mkbootimg
+```
 
 ## Build
-$ source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_a10s-eng; mka recoveryimage
+```
+source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_a10s-eng; mka recoveryimage
+```
