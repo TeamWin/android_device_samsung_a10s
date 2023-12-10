@@ -17,22 +17,36 @@ Rear Camera  | 13.0 MP + 2 MP, LED flash
 Front Camera | 8.0 MP
 Release Month | August 2019
 
-# How To Compile
+## Features
+
+**Works**
+
+- ADB
+- Booting (Tested on Android 10 and Android 13)
+- Brightness adjust
+- **Decryption** (Android 13 is also supported!)
+- MTP
+- Vibration
+
+**Not Works**
+-ADB Sideload
+
+## How To Compile
 
 # Create dirs
 $ mkdir twrp; cd twwrp
 
-# Init repo
+## Init repo
 $ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
 
-# Clone repo
+## Clone repo
 $ git clone https://github.com/HayateDevTH/android_device_samsung_a10s -b android-11 device/samsung/a10s
 
-# Sync
+## Sync
 $ repo sync
 
-# Run 
+## Run 
 $ chmod +x device/samsung/a10s/mkbootimg to avoid building issues.
 
-# Build
+## Build
 $ source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_a10s-eng; mka recoveryimage
