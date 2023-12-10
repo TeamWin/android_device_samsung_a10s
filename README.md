@@ -27,6 +27,7 @@ Release Month | August 2019
 - **Decryption** (Stock Rom & Custom Rom & GSI is also supported!)
 - MTP
 - Vibration
+- Fastbootd
 
 **Not Works**
 - ADB Sideload
