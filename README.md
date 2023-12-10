@@ -24,7 +24,7 @@ Release Month | August 2019
 - ADB
 - Booting (Tested on Android 10 and Android 13)
 - Brightness adjust
-- **Decryption** (Android 13 is also supported!)
+- **Decryption** (Stock Rom & Custom Rom & GSI is also supported!)
 - MTP
 - Vibration
 
