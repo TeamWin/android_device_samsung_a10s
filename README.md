@@ -22,7 +22,7 @@ Release Month | August 2019
 **Works**
 
 - ADB
-- Booting (Tested on Android 9 and Android 11)
+- Booting (Tested on Android 9 and Android 11) Firmware
 - Brightness adjust
 - **Decryption** (Stock Rom & Custom Rom & GSI is also supported!)
 - MTP
