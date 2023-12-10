@@ -24,7 +24,6 @@ Release Month | August 2019
 - ADB
 - Booting (Tested on Android 9 and Android 11) Firmware
 - Brightness adjust
-- **Decryption** (Stock Rom & Custom Rom & GSI is also supported!)
 - MTP
 - Vibration
 - Fastbootd
