@@ -52,7 +52,7 @@ git clone https://github.com/HayateDevTH/android_device_samsung_a10s -b android-
 repo sync
 ```
 
-## Run 
+## Run This Command For Fix Permission denide
 ```
 chmod +x device/samsung/a10s/mkbootimg
 ```
