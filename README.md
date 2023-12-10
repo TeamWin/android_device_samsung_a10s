@@ -32,6 +32,9 @@ Release Month | August 2019
 **Not Works**
 - ADB Sideload
 
+**Untested**
+- OTG
+
 ## How To Compile
 
 # Create dirs
