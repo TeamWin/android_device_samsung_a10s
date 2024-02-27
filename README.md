@@ -51,13 +51,12 @@ Minor checks
 - [x] screenshot
 - [x] partition SD card
 
-# How-to compile it:
+# How-to compile :
 ```
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
 lunch twrp_a10s-eng
 make recoveryimage
-
 ```
 
 ```
